@@ -1,0 +1,34 @@
+.container {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 900px;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  margin-bottom: 15px;
+}
+
+.controls > button,
+.controls > label {
+  margin: 0 8px 10px 8px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 550px;
+  border: 1px solid #ddd;
+  background-color: #222;
+  margin: auto;
+  max-width: 900px;
+}
+
+.array-bar {
+  background-color: turquoise;
+  transition: height 0.3s ease, background-color 0.3s ease;
+}
